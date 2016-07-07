@@ -1,8 +1,8 @@
 #Trabajo Práctico Wordpress
 
 #1-Clonar repositorio
-  git clone https://github.com/apenasco/wordpress.git
-  cd wordpress
+	git clone https://github.com/apenasco/wordpress.git
+	cd wordpress
 
 #2-Crear volumen (10GB)
 	openstack volume create --size 10 prod-db-vol
