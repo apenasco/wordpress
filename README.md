@@ -2,7 +2,7 @@
 
 #1-Clonar repositorio
   git clone https://github.com/apenasco/wordpress.git
-	cd wordpress
+  cd wordpress
 
 #2-Crear volumen (10GB)
 	openstack volume create --size 10 prod-db-vol
