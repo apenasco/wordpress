@@ -1,4 +1,3 @@
-# wordpress
 #Trabajo Práctico Wordpress
 
 #1-Clonar repositorio
@@ -11,10 +10,10 @@
 #3-Deploy
 	make deploy ENV=prod
 
-#5- Volumen para stag
+#4- Volumen para stag
 	cinder snapshot-create --force --name snap-stag-db-vol prod-db-vol
 	cinder create --snapshot-id UUID --name stag-db-vol 10
 
-#6- Deploy stag:
+#5- Deploy stag:
 	make deploy ENV=stag
 
